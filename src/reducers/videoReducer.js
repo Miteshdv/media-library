@@ -9,7 +9,7 @@ export default function (state = initialState.videos, action) {
       return [...state, action.videos];
     case types.SELECTED_VIDEO:
       return { ...state, selectedVideo: action.video };
-    default:
+    default:     
       return state;
   }
 }

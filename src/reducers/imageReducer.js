@@ -11,6 +11,7 @@ export default function (state = initialState.images, action) {
     case types.SELECTED_IMAGE:
       return { ...state, selectedImage: action.image };
     default:
+    console.log("reupdate state image red ")
       return state;
   }
 }

@@ -15,7 +15,7 @@ class MediaGalleryPage extends Component {
     this.handleSelectImage = this.handleSelectImage.bind(this);
     this.handleSelectVideo = this.handleSelectVideo.bind(this);
   }
-
+  
   // Dispatches *searchMediaAction*  immediately after initial rendering
  componentDidMount() {
     this.props.dispatch(searchMediaAction('rain'));
